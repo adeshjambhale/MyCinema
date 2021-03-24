@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent">
+
+
+        <TextView
+            android:id="@+id/tvlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/balthazar"
+            android:text="Login"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvwelcome"
+            android:textStyle="bold"
+            android:layout_below="@id/tvlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:text="Welcome to MyCinema"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email Address"
+            android:layout_marginTop="170dp"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_below="@id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:layout_marginTop="50dp"
+            android:inputType="textPassword" />
+        <CheckBox
+            android:id="@+id/showpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show password"
+            android:layout_marginTop="40dp"
+            android:textSize="15sp"
+            android:layout_below="@id/etpassword"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_below="@id/showpassword"
+            android:background="@drawable/button_background"/>
+
+        <TextView
+            android:layout_below="@id/btnlogin"
+            android:layout_marginTop="50dp"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tvregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not have an account. SignUp here" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

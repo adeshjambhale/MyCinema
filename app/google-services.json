@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "893504303750",
+    "firebase_url": "https://mycinema-2e59f.firebaseio.com",
+    "project_id": "mycinema-2e59f",
+    "storage_bucket": "mycinema-2e59f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893504303750:android:e075599eea591fe6",
+        "android_client_info": {
+          "package_name": "in.edu.vpt.mycinema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893504303750-m2fvghb4guh9ld56sbp1kg85cnb1pu00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb9HLLw3Wi5TVPvvuvLO4_YWxPUTaAj4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

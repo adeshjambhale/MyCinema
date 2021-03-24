@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage">
+
+    <TextView
+        android:id="@+id/signup_title"
+        style="@style/LabelStyle"
+        android:layout_margin="20dp"
+        android:text="SignUp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/signup_welcome_msg"
+        style="@style/LabelStyle"
+        android:layout_below="@+id/signup_title"
+        android:layout_marginStart="22dp"
+        android:text="Welcome to MyCinema"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnRegister"
+        android:layout_below="@id/signup_welcome_msg"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="3dp">
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <RelativeLayout
+                android:id="@+id/containerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Name"
+                    android:id="@+id/etname"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    />
+
+                <EditText
+                    android:id="@+id/etUserEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/etname"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    />
+
+                <EditText
+                    android:id="@+id/etUserPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etUserEmail"
+                    android:layout_marginTop="10dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+
+                    />
+
+
+                <EditText
+                    android:id="@+id/etMoibleno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etUserPassword"
+                    android:layout_marginTop="10dp"
+                    android:hint="Mobile Number"
+                    android:inputType="phone"
+                    android:maxLines="1"/>
+
+
+                <EditText
+                    android:id="@+id/etPincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etMoibleno"
+                    android:layout_marginTop="10dp"
+                    android:hint="Age"
+                    android:inputType="number"
+                    android:maxLines="1"/>
+
+
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/divider"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:text="SignUp"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="58dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="30dp"
+            android:layout_toStartOf="@id/divider_or"
+            android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/divider_or"
+            style="@style/LabelStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Or"
+            android:textColor="@color/divider_or"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/divider_or"
+            android:background="@color/divider" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/login_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/have_account"
+            style="@style/LabelStyle"
+            android:text="Have an account?"
+            android:textColor="@color/account"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/login"
+            style="@style/LabelStyle"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/have_account"
+            android:text="Login"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

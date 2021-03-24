@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <TextView
+        android:id="@+id/tv_q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="How much did you like the movie ? "/>
+    <RatingBar
+        android:id="@+id/ratingbar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_q1"
+        android:numStars="4"
+        />
+
+    <TextView
+        android:id="@+id/tv_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+
+        android:text="How much did like book ticket with MyCinema App ?"
+        android:layout_below="@+id/ratingbar1"/>
+
+    <RatingBar
+        android:id="@+id/ratingbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:numStars="4"
+        android:layout_below="@id/tv_q2"/>
+
+
+    <TextView
+        android:id="@+id/tv_q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="How much would recommend this movie ?"
+        android:layout_below="@+id/ratingbar2"/>
+
+
+    <RatingBar
+        android:id="@+id/ratingbar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:numStars="4"
+        android:layout_below="@id/tv_q3"/>
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Submit"/>
+
+
+</RelativeLayout>

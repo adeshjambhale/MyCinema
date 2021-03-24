@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyCinema</string>
+
+    <string-array name="Select">
+        <item>7:00pm</item>
+        <item>8:00pm</item>
+        <item>9:00pm</item>
+        <item>10:00pm</item>
+
+    </string-array>
+
+</resources>

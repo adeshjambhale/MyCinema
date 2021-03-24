@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingSeats"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/seats"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seats"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/we"
+        android:textStyle="italic"
+        android:layout_below="@id/seats"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill up seats" />
+
+    <TextView
+        android:id="@+id/wee"
+        android:textStyle="italic"
+        android:layout_below="@id/we"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select seats" />
+
+
+
+    <EditText
+        android:layout_below="@id/wee"
+        android:id="@+id/edseats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/edit_text2"
+        android:textStyle="italic"
+        android:layout_below="@id/edseats"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select time slot" />
+
+
+    <Spinner
+        android:id="@+id/timeslot"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnproceed"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Procced" />
+
+</RelativeLayout>
