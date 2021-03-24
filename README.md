@@ -2,12 +2,26 @@
 - An Android application that allows the user to book tickets for movies.
 - A user can book tickets for various movies and also provide feedback to the app and movie.
 
-# Status ☑️
-This project is not under active development.
-
 # Technical Info 🔧
 - Written in Java
 - Database used was Firebase for login authentication, storing movies data, tickets booked & feedback.
+
+# Dependencies 🚨
+- Minimum hardware and software requirements: (For coding)
+  - 2.5 GHz Pentium Processor or Intel Core compatible processor.
+  - 8 GB RAM.
+  - 5GB hard disk space.
+  - Android Studio.
+  - JDK.
+  - Firebase account and Firebase integration with the project.
+  - Internet Connectivity.
+
+
+- Hardware and software requirements to run the app on the phone:
+  - Android KitKat 4.4 and above.
+  - Minimum 2GB RAM.
+  - Internet connectivity
+  - 20MB space.
 
 # Inside Story 🕮
 - This application was developed during TechShala Android Development Hackathon 2019 at Vidyalankar Polytechnic in 4 hours.
@@ -21,7 +35,12 @@ This project is not under active development.
 - Ritik Sarang
 - Shrinath Gupta
 
-# Additional Info
+
+# Status ☑️
+- This project is not under active development.
+- Firebase realtime database is deactivated.
+
+# Additional Info ℹ️
 - Feel to contribute to this project <br>
 You can reach out to me via 📫 [![gmail][1.2]][1], [![LinkedIn][2.2]][2].
 
