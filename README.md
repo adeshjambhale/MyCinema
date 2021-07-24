@@ -2,6 +2,13 @@
 - An Android application that allows the user to book tickets for movies.
 - A user can book tickets for various movies and also provide feedback to the app and movie.
 
+# Inside Story 🕮
+- This application was developed during TechShala Android Development Hackathon 2019 at Vidyalankar Polytechnic in 4 hours.
+- The Projects were selected randomly by a chit-pull system and we got this project.
+- The application was developed by Adesh Jambhale, Ritik Sarang & Shrinath Gupta. Groups of 3-4 people participated in this competition.
+- The team partially completed the project.
+- The team was declared the winner for TechShala Android Development Hackathon 2019 as the project was running and satisfied all the conditions given for the project.
+
 # Technical Info 🔧
 - Written in Java
 - Database used was Firebase for login authentication, storing movies data, tickets booked & feedback.
@@ -22,13 +29,6 @@
   - Minimum 2GB RAM.
   - Internet connectivity
   - 20MB space.
-
-# Inside Story 🕮
-- This application was developed during TechShala Android Development Hackathon 2019 at Vidyalankar Polytechnic in 4 hours.
-- The Projects were selected randomly by a chit-pull system and we got this project.
-- The application was developed by Adesh Jambhale, Ritik Sarang & Shrinath Gupta. Groups of 3-4 people participated in this competition.
-- The team partially completed the project.
-- The team was declared the winner for TechShala Android Development Hackathon 2019 as the project was running and satisfied all the conditions given for the project.
 
 # Contributers
 - Adesh Jambhale
